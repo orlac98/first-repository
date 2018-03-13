@@ -9,7 +9,11 @@ public class Index{
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
-    System.out.println("3. Exit");
+    System.out.println("3. Methods");
+    System.out.println("4. Shadowing");
+    System.out.println("5. Arithmetic");
+    System.out.println("6. Reverse");
+    System.out.println("7. Exit");
 
     System.out.println();
 
@@ -23,14 +27,33 @@ public class Index{
         Break_Ex2.main(null); //static method call, no instance required.
         break;
       case 2:
-        System.out.println("Switch lab");
+        System.out.println("Switch labs");
         System.out.println();
         FirstSwitch.main(null);
         break;
-      case 3:
-        System.out.println("Exiting....");
+       case 3:
+	    System.out.println("Methods");
+	    System.out.println();
+	    Methods.main(null);
         break;
-      default:
+      case 4:
+        System.out.println("Shaowing lab exercise");
+		System.out.println();
+		shadow.main(null);
+        break;
+      case 5:
+        System.out.println("Overloading lab excercise");
+	    System.out.println();
+	  	Arithmetic.main(null);
+        break;
+       case 6:
+	    System.out.println(" Reversing numbers lab excercise");
+	   	System.out.println();
+	   	Reverse.main(null);
+	   	case 7:
+	    System.out.println(" Exit");
+        break;
+      	default:
         System.out.println("Invalid choice");
         break;
     }
