@@ -13,7 +13,9 @@ public class Index{
     System.out.println("4. Shadowing");
     System.out.println("5. Arithmetic");
     System.out.println("6. Reverse");
-    System.out.println("7. Exit");
+    System.out.println("7. First Array");
+    System.out.println("8. Second Array");
+    System.out.println("9. Exit");
 
     System.out.println();
 
@@ -51,7 +53,13 @@ public class Index{
 	   	System.out.println();
 	   	Reverse.main(null);
 	   	case 7:
-	    System.out.println(" Exit");
+	    System.out.println(" First Array lab excercise");
+	    System.out.println();
+	    FirstArray.main(null);
+	    case 8:
+		System.out.println(" Second Array lab excercise");
+		System.out.println();
+	    SecondArray.main(null);
         break;
       	default:
         System.out.println("Invalid choice");
