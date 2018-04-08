@@ -16,8 +16,10 @@ public class Index{
     System.out.println("7. Second Array");
     System.out.println("8. Try Catch");
     System.out.println("9. EnhancedFor");
-    System.out.println("10. SearchStundents");
-    System.out.println("11. Exit");
+    System.out.println("10. SearchStudents");
+    System.out.println("11. Convert");
+    System.out.println("12. ");
+    System.out.println("13. Exit");
 
     System.out.println();
 
@@ -41,7 +43,7 @@ public class Index{
 	    Methods.main(null);
         break;
       case 4:
-        System.out.println("Shaowing lab exercise");
+        System.out.println("Shadowing lab exercise");
 		System.out.println();
 		shadow.main(null);
         break;
@@ -70,6 +72,14 @@ public class Index{
         System.out.println(" Search Students lab excercise");
 		System.out.println();
 	    SearchStudents.main(null);
+	   case 11:
+		System.out.println(" Convert");
+        System.out.println();
+	    Convert.main(null);
+	   case 12:
+		System.out.println(" ");
+        System.out.println();
+	    .main(null);
         break;
       	default:
         System.out.println("Invalid choice");
